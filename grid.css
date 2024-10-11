@@ -226,15 +226,8 @@ body {
     margin-left: 30px;
     font-size: 2em;
     color: #fff;
-}
-.attribution{
-    font-size: 11px;
-    text-align: center;
-}
-.attribution a{
-    color: hsl(228, 45%, 44%);
-}
 
+}
 
 @media screen and (max-width: 800px) {
 
@@ -248,4 +241,52 @@ body {
         border-radius: 50px;
     }
 
+    .grid-one {
+        margin: 10px 15px;
+        border-radius: 0;
+    }
+
+    .grid-two {
+        margin: 10px 15px;
+        border-radius: 0;
+    }
+
+    .grid-three {
+        margin: 10px 15px;
+        border-radius: 0;
+    }
+
+    .grid-four {
+        margin: 10px 15px;
+        border-radius: 0;
+    }
+
+    .grid-five {
+        margin: 10px 15px;
+        border-radius: 0;
+        padding-bottom: 100px;
+    }
+
+    .grid-six {
+        margin: 10px 15px;
+        border-radius: 0;
+    }
+
+    .grid-seven {
+        margin: 10px 15px;
+        border-radius: 0;
+    }
+
+    .grid-eight {
+        margin: 10px 10px;
+        border-radius: 0;
+    }
+
+    .grid-eight .id {
+        padding-right: 20px;
+    }
+
+    .grid-eight img {
+        margin-top: 70px;
+    }
 }
